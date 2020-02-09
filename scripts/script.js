@@ -1,51 +1,51 @@
 const deck = [
   {
     name: "comerica",
-    url: "../assets/comerica.jpg"
+    url: "assets/comerica.jpg"
   },
   {
     name: "comerica",
-    url: "../assets/tiger.jpg"
+    url: "assets/tiger.jpg"
   },
   {
     name: "coney",
-    url: "../assets/coneys.jpg"
+    url: "assets/coneys.jpg"
   },
   {
     name: "coney",
-    url: "../assets/lafayette.jpg"
+    url: "assets/lafayette.jpg"
   },
   {
     name: "eminem",
-    url: "../assets/eminem.jpg"
+    url: "assets/eminem.jpg"
   },
   {
     name: "eminem",
-    url: "../assets/mom-spaghetti.jpg"
+    url: "assets/mom-spaghetti.jpg"
   },
   {
     name: "faygo",
-    url: "../assets/faygo.jpg"
+    url: "assets/faygo.jpg"
   },
   {
     name: "faygo",
-    url: "../assets/rock&rye.jpg"
+    url: "assets/rock&rye.jpg"
   },
   {
     name: "gm",
-    url: "../assets/gm.jpg"
+    url: "assets/gm.jpg"
   },
   {
     name: "gm",
-    url: "../assets/gm-building.jpg"
+    url: "assets/gm-building.jpg"
   },
   {
     name: "hitsville",
-    url: "../assets/hitsville.jpg"
+    url: "assets/hitsville.jpg"
   },
   {
     name: "hitsville",
-    url: "../assets/supremes.jpg"
+    url: "assets/supremes.jpg"
   }
 ];
 
