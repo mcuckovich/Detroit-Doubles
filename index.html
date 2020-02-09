@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Memory Game</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image" href="/assets/detroit.jpg" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <div class="modul-container game-start">
+      <div class="modul">
+        <h2>How Well Do You Know Detroit?</h2>
+        <p>
+          Test your motor city knowledge by matching iconic Detroit duos. After
+          pressing start you will have 60 seconds to clear the board.
+        </p>
+        <p>Good Luck</p>
+        <button class="btn start">Start</button>
+      </div>
+    </div>
+
+    <div class="modul-container game-lose">
+      <div class="modul">
+        <h2>You Lose!</h2>
+        <p>
+          Perhaps your knowledge is better suited for the armpit of America,
+          Ohio.
+        </p>
+        <button class="btn again">Try Again?</button>
+      </div>
+    </div>
+
+    <div class="modul-container game-win">
+      <div class="modul">
+        <h2>You Win!</h2>
+        <p>
+          Crack open an ice cold Vernors, you deserve it!
+        </p>
+        <button class="btn win">Play again?</button>
+      </div>
+    </div>
+
+    <header>
+      <h1><span class="gray">Detroit</span><span> Doubles</span></h1>
+    </header>
+    <section id="board"></section>
+    <footer>
+      <div id="timer-container">
+        <i class="fas fa-stopwatch"></i><span id="timer">60</span>
+      </div>
+      <i class="fas fa-redo reset"></i>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/2edfe2ba7c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
