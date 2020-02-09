@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-    url("/assets/background.jpg");
+    url("../assets/background.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -100,7 +100,7 @@ span {
   border-radius: 50%;
 }
 .card .front {
-  background-image: url("/assets/d.jpg");
+  background-image: url("../assets/d.jpg");
   background-position: center;
   background-size: cover;
 }
